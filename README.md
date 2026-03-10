@@ -1,4 +1,4 @@
-# Instacart — Customer Order Analysis
+# Instacart Customer Order Analysis
 
 **Tools:** SQL · Databricks SQL Editor  
 **Dataset:** Instacart Market Basket Analysis — 32M+ order items, 200K users  
