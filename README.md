@@ -1,14 +1,14 @@
 # Instacart Customer Order Analysis
 
 **Tools:** SQL · Databricks SQL Editor  
-**Dataset:** Instacart Market Basket Analysis — 32M+ order items, 200K users  
+**Dataset:** Instacart Market Basket Analysis 32M+ order items, 200K users  
 **Tables:** orders · order_products · products · aisles · departments
 
 ---
 
 ## Overview
 
-SQL analysis of 32M+ Instacart grocery order items across 200K users and 49K products. Uncovered product popularity patterns, department-level reorder behavior, peak ordering times, and customer loyalty segmentation — all using multi-table joins, window functions, and conditional aggregation in SQL.
+SQL analysis of 32M+ Instacart grocery order items across 200K users and 49K products. Uncovered product popularity patterns, department-level reorder behavior, peak ordering times, and customer loyalty segmentation all using multi-table joins, window functions, and conditional aggregation in SQL.
 
 ---
 
@@ -94,7 +94,7 @@ SQL analysis of 32M+ Instacart grocery order items across 200K users and 49K pro
 | Regular (5-9 orders) | 71,495 | 6.7 | 18.7 days |
 | Returning (2-4 orders) | 23,986 | 4.0 | 20.3 days |
 
-**Insight:** Power users order every 9.2 days — essentially weekly grocery shopping. No one-time buyers exist in this dataset, meaning every user came back at least twice. The 53k power users placing 38 orders each represent the core revenue base of the platform.
+**Insight:** Power users order every 9.2 days essentially weekly grocery shopping. No one-time buyers exist in this dataset, meaning every user came back at least twice. The 53k power users placing 38 orders each represent the core revenue base of the platform.
 
 ---
 
